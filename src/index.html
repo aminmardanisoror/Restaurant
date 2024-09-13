@@ -6,17 +6,21 @@
     <link rel="stylesheet" href="./output.css" />
     <link rel="stylesheet" href="./assets/css/main.css" />
     <link rel="stylesheet" href="./assets/css/all.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
     <title>Restaurant</title>
   </head>
   <body>
-    <div class="header bg-gray-600 gap-56 flex flex-col">
+    <div class="header bg-gray-900 gap-56 flex flex-col">
       <div class="header__navbar flex justify-between px-3 pt-6">
         <img
           class="w-24"
           src="./assets/imgs/navbar/kalium-restaurant.png"
           alt=""
         />
-        <span class="text-white">|||</span>
+        <i class="bi bi-list text-white text-3xl"></i>
       </div>
       <div class="header__explain flex flex-col gap-5">
         <div class="flex justify-center items-center gap-3">
@@ -38,8 +42,10 @@
     <div class="explain mt-7">
       <div class="explain__container w-11/12 mx-auto flex flex-col gap-9">
         <div class="gap-2 flex flex-col">
-            <h1 class="text-2xl">Restaurant de Kalium</h1>
-        <p class="text-gray-400">Varieties of our rich menu, a famous Michelin star restaurant.</p>
+          <h1 class="text-2xl">Restaurant de Kalium</h1>
+          <p class="text-gray-400">
+            Varieties of our rich menu, a famous Michelin star restaurant.
+          </p>
         </div>
         <p class="text-gray-500">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
@@ -54,7 +60,32 @@
           partiality unaffected occasional thoroughly. Adieus it no wonder
           spirit houses.
         </p>
-        <img src="./assets/imgs/explain/collage-1-655x498.jpg" alt="">
+        <img src="./assets/imgs/explain/collage-1-655x498.jpg" alt="" />
+      </div>
+    </div>
+
+    <div class="chef mt-9">
+      <div class="pt-20 w-11/12 mx-auto">
+       <div class="flex flex-col gap-6 mb-8">
+        <span class="text-gray-400 tracking-widest text-sm ">Our Culinary Chef</span>
+        <h2 class="text-slate-100 text-3xl">René Redzepi</h2>
+        <img class="w-16" src="./assets/imgs/chef/divider.png" alt="" />
+       </div>
+        <div class="flex flex-col gap-10">
+          <p class="text-gray-400 text-sm leading-6">
+            René Redzepi, the young chef who elevated Noma in Copenhagen to its
+            standing as best restaurant in the world in the S.Pellegrino World’s
+            50 Best Restaurants rankings, has pioneered a cuisine dubbed “New
+            Nordic.”
+          </p>
+          <p class="text-gray-400 text-sm leading-6">
+            While it may be impolite to wonder aloud about “Old Nordic,” the new
+            cuisine is built on local ingredients like sweet green strawberries,
+            musk ox and flowers harvested from the seashore, which tell a Danish
+            tale of “time and place,” according to Redzepi.
+          </p>
+        </div>
+        <img class="w-36 mt-12" src="./assets/imgs/chef/signature.png" alt="" />
       </div>
     </div>
   </body>
