@@ -2,6 +2,10 @@
   height: 100vh;
 }
 
+.More-News {
+  color: #cd9b33;
+}
+
 .menu {
   background: url(../imgs/menu/topography.png);
 }

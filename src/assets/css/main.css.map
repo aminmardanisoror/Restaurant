@@ -1,1 +1,1 @@
-{"version":3,"sources":["../sass/blocks/_headers.scss","main.css","../sass/blocks/_menu.scss","../sass/blocks/_chef.scss"],"names":[],"mappings":"AAAA;EACI,aAAA;ACCJ;;ACFA;EACI,4CAAA;ADKJ;;AENA;EACE,wCAAA;EACA,aAAA;EACA,sBAAA;EACA,2BAAA;AFSF","file":"main.css"}
+{"version":3,"sources":["../sass/blocks/_headers.scss","main.css","../sass/blocks/_cuisineBlog.scss","../sass/blocks/_menu.scss","../sass/blocks/_chef.scss"],"names":[],"mappings":"AAAA;EACI,aAAA;ACCJ;;ACFA;EACI,cAAA;ADKJ;;AENA;EACI,4CAAA;AFSJ;;AGVA;EACE,wCAAA;EACA,aAAA;EACA,sBAAA;EACA,2BAAA;AHaF","file":"main.css"}
