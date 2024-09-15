@@ -12,6 +12,7 @@
     />
     <title>Restaurant</title>
   </head>
+
   <body>
     <!-- ============
 header
@@ -441,6 +442,64 @@ map
     <div></div>
 
     <!-- ============
+date
+============ -->
+    <div class="date">
+      <div class="date__container pt-10 pb-16 w-11/12 mx-auto">
+        <div class="flex flex-col gap-10">
+          <div class="flex flex-col gap-3">
+            <h3 class="text-3xl">Reservé</h3>
+          <p class="dateClr ">Easy access and don’t loose time waiting.</p>
+          </div>
+          <div >
+            <img class="w-20" src="./assets/imgs/date/divider.png" alt="" />
+          </div>
+        </div>
+        <div class="flex flex-col gap-4 mt-5">
+
+
+        <div >
+          <span>Date</span>
+        </div>
+
+        
+          <div class="flex flex-col gap-2">
+            <label for="Time">Time</label>
+  
+            <select class="w-full border py-2 pl-3" id="Time">
+              <option value="volvo">08:00 am</option>
+              <option value="saab">08:30 am</option>
+              <option value="opel">09:00 am</option>
+              <option value="audi">09:30 am</option>
+              <option value="audi">10:00 am</option>
+              <option value="audi">10:30 am</option>
+              <option value="audi">11:00 am</option>
+              <option value="audi">11:30 am</option>
+            </select>
+          </div>
+          <div class="flex flex-col gap-2">
+            <label for="cars">We are: </label>
+  
+            <select class="w-full border py-2 pl-3" id="cars">
+              <option value="volvo">1 person</option>
+              <option value="saab">2 people</option>
+              <option value="opel">3 people</option>
+              <option value="audi">4 people</option>
+              <option value="audi">5 people</option>
+              <option value="audi">6 people</option>
+              <option value="audi">7 people</option>
+              <option value="audi">8 people</option>
+              <option value="audi">9 people</option>
+              <option value="audi">10 people</option>
+            </select>
+          </div>
+          <div>
+            <a class="find-a-table mt-5 text-white px-5 py-3 inline-block" href="">Find a Table</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ============
 footer
 ============ -->
     <div class="footer bg-zinc-800 text-white">
@@ -458,13 +517,13 @@ footer
           <span>Denmark</span>
         </div>
         <div class="mt-20">
-          <div >
+          <div>
             <span class="footclr">Tel:</span>
             <span>+45 1245 9831</span>
           </div>
           <div>
             <span class="footclr">E-mail: </span>
-          <a href="">info@kaliumtheme.com</a>
+            <a href="">info@kaliumtheme.com</a>
           </div>
           <div class="flex gap-6 mt-6">
             <i class="bi bi-instagram"></i>
@@ -475,11 +534,11 @@ footer
         </div>
         <div class="mt-10 flex flex-col gap-4">
           <div class="text-2xl">Opening times</div>
-          <div class="flex  justify-between">
+          <div class="flex justify-between">
             <span class="footclr">Monday — Thursday</span>
             <span>10:10 - 23:00</span>
           </div>
-          <div class="flex  justify-between">
+          <div class="flex justify-between">
             <span class="footclr">Friday — Sunday</span>
             <span>10:10 - 19:00</span>
           </div>

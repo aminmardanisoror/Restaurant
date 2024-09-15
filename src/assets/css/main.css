@@ -19,4 +19,12 @@
   height: 100vh;
   background-size: cover;
   background-position: center;
+}
+
+.dateClr {
+  color: #6d6d6d;
+}
+
+.find-a-table {
+  background: #d09e5b;
 }/*# sourceMappingURL=main.css.map */
