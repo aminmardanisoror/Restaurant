@@ -17,54 +17,56 @@
     <!-- ============
 header
 ============ -->
-    <div class="header bg-gray-900 gap-56 flex flex-col">
+    <div class="header bg-gray-900 ">
+     <div class="gap-56 flex flex-col container">
       <div
-        class="header__navbar flex justify-between px-3 pt-6 md:pt-12 md:px-10"
-      >
-        <img
-          class="w-24"
-          src="./assets/imgs/navbar/kalium-restaurant.png"
-          alt=""
-        />
-        <div class="hidden text-white md:flex gap-1 text-xl">
-          <div class="flex gap-6">
-            <a href="">Restaurant</a>
-            <a href="">Chef</a>
-            <a href="">Menu</a>
-            <a href="">Gallery</a>
-            <a href="">Blog</a>
-            <a href="">Reserve</a>
-          </div>
-          <a class="bg-yellow-700 px-4 rounded-full" href="">Buy</a>
+      class="header__navbar flex justify-between px-3 pt-6 md:pt-12 md:px-10"
+    >
+      <img
+        class="w-24"
+        src="./assets/imgs/navbar/kalium-restaurant.png"
+        alt=""
+      />
+      <div class="hidden text-white md:flex gap-1 text-xl">
+        <div class="flex gap-6">
+          <a href="">Restaurant</a>
+          <a href="">Chef</a>
+          <a href="">Menu</a>
+          <a href="">Gallery</a>
+          <a href="">Blog</a>
+          <a href="">Reserve</a>
         </div>
-        <i class="bi bi-list text-white text-3xl md:hidden"></i>
+        <a class="bg-yellow-700 px-4 rounded-full" href="">Buy</a>
       </div>
-      <div class="header__explain flex flex-col gap-5">
-        <div class="flex justify-center items-center gap-3">
-          <hr class="w-16" />
-          <span class="text-white text-xs">OUR DISHES ARE</span>
-          <hr class="w-16" />
-        </div>
-        <div class="flex items-center flex-col  w-11/12 mx-auto gap-9">
-          <h1 class="text-white text-5xl text-center md:text-7xl">
-            Beyond the
-          </h1>
-          <h1 class="text-white text-5xl text-center md:text-7xl ">
-            boundaries of taste.
-          </h1>
+      <i class="bi bi-list text-white text-3xl md:hidden"></i>
+    </div>
+    <div class="header__explain flex flex-col gap-5">
+      <div class="flex justify-center items-center gap-3">
+        <hr class="w-16" />
+        <span class="text-white text-xs">OUR DISHES ARE</span>
+        <hr class="w-16" />
+      </div>
+      <div class="flex items-center flex-col  w-11/12 mx-auto gap-9">
+        <h1 class="text-white text-5xl text-center md:text-7xl">
+          Beyond the
+        </h1>
+        <h1 class="text-white text-5xl text-center md:text-7xl ">
+          boundaries of taste.
+        </h1>
 
-          <a class="bg-white py-1 px-10 rounded-2xl" href="#"
-            >RESERVE A TABLE</a
-          >
-        </div>
+        <a class="bg-white py-1 px-10 rounded-2xl" href="#"
+          >RESERVE A TABLE</a
+        >
       </div>
+    </div>
+     </div>
     </div>
     <!-- ============
 explain
 ============ -->
     <div class="explain mt-7">
       <div
-        class="explain__container w-11/12 mx-auto flex flex-col gap-9 md:flex-row md:items-center md:h-[100vh]"
+        class="explain__container container w-11/12 mx-auto flex flex-col gap-9 md:flex-row md:items-center md:h-[100vh]"
       >
         <div class="gap-2 flex flex-col md:w-2/5">
           <h1 class="text-2xl md:text-5xl">Restaurant de Kalium</h1>
@@ -99,7 +101,7 @@ explain
 chef
 ============ -->
     <div class="chef mt-9">
-      <div class="w-11/12 mx-auto pt-36 flex flex-col gap-4 md:pl-10">
+      <div class="chefــcontianer container w-11/12 mx-auto pt-36 flex flex-col gap-4 md:pl-10">
         <div class="flex flex-col gap-9 md:gap-10 mb-8">
           <span class="text-gray-400 tracking-widest text-sm"
             >Our Culinary Chef</span
@@ -128,7 +130,7 @@ chef
 menu
 ============ -->
     <div class="menu">
-      <div class="menu__container pt-8 pb-10 flex flex-col gap-6">
+      <div class="menu__container container  pt-8 pb-10 flex flex-col gap-6">
         <div
           class="menu__container__title w-11/12 mx-auto text-center flex flex-col gap-6"
         >
@@ -294,7 +296,7 @@ menu
 gallery
 ============ -->
     <div class="gallery">
-      <div class="gallery__container md:grid md:grid-cols-4">
+      <div class="gallery__container container md:grid md:grid-cols-4">
         <div>
           <img
             class="pt-3 px-3"
@@ -399,60 +401,62 @@ gallery
     <!-- ============
 Guestbook
 ============ -->
-    <div class="guestBook mt-10 flex flex-col gap-6 md:gap-16">
-      <div class="text-center flex flex-col gap-5">
-        <h3 class="text-3xl md:text-5xl">Guestbook</h3>
-        <p class="text-gray-400 md:text-xl">
-          We happily served over 10,000 clients since 2001
-        </p>
-        <img
-          class="mx-auto w-20 md:mt-8"
-          src="./assets/imgs/Guestbook/divider.png"
-          alt=""
-        />
-      </div>
-      <div class="flex justify-between w-10/12 mx-auto md:w-6/12">
-        <img
-          class="w-14"
-          src="./assets/imgs/Guestbook/awards_thefoodawards.png"
-          alt=""
-        />
-        <img
-          class="w-14"
-          src="./assets/imgs/Guestbook/award_gourmand.png"
-          alt=""
-        />
-        <img
-          class="w-14"
-          src="./assets/imgs/Guestbook/awards_michelinstar.png"
-          alt=""
-        />
-        <img
-          class="w-14"
-          src="./assets/imgs/Guestbook/awards_cleanfood.png"
-          alt=""
-        />
-
-        <img
-          class="w-14"
-          src="./assets/imgs/Guestbook/awards_greatbritishfood.png"
-          alt=""
-        />
-      </div>
-
-      <div class="hidden md:flex   gap-20 items-center bg-gray-100 rounded-full py-2  mx-auto px-6">
-        <div>
-          <img class="w-32"
-            src="./assets/imgs/Guestbook/Tripadvisor_lockup_horizontal_secondary_registered-18034-2.svg"
+    <div class="guestBook ">
+      <div class="container mt-10 flex flex-col gap-6 md:gap-16">
+        <div class="text-center flex flex-col gap-5">
+          <h3 class="text-3xl md:text-5xl">Guestbook</h3>
+          <p class="text-gray-400 md:text-xl">
+            We happily served over 10,000 clients since 2001
+          </p>
+          <img
+            class="mx-auto w-20 md:mt-8"
+            src="./assets/imgs/Guestbook/divider.png"
             alt=""
           />
         </div>
-        <div class="w-10">
-          <a class="underline font-bold text-sm"  href="">Liburnia Restaurant</a>
+        <div class="flex justify-between w-10/12 mx-auto md:w-6/12">
+          <img
+            class="w-14"
+            src="./assets/imgs/Guestbook/awards_thefoodawards.png"
+            alt=""
+          />
+          <img
+            class="w-14"
+            src="./assets/imgs/Guestbook/award_gourmand.png"
+            alt=""
+          />
+          <img
+            class="w-14"
+            src="./assets/imgs/Guestbook/awards_michelinstar.png"
+            alt=""
+          />
+          <img
+            class="w-14"
+            src="./assets/imgs/Guestbook/awards_cleanfood.png"
+            alt=""
+          />
+  
+          <img
+            class="w-14"
+            src="./assets/imgs/Guestbook/awards_greatbritishfood.png"
+            alt=""
+          />
         </div>
-        <div class="flex items-center">
-          <img class="w-16 h-4"  src="./assets/imgs/Guestbook/input.css.png" alt="" />
-          <span class="text-xs">771 reviews</span>
+  
+        <div class="hidden md:flex   gap-20 items-center bg-gray-100 rounded-full py-2  mx-auto px-6">
+          <div>
+            <img class="w-32"
+              src="./assets/imgs/Guestbook/Tripadvisor_lockup_horizontal_secondary_registered-18034-2.svg"
+              alt=""
+            />
+          </div>
+          <div class="w-10">
+            <a class="underline font-bold text-sm"  href="">Liburnia Restaurant</a>
+          </div>
+          <div class="flex items-center">
+            <img class="w-16 h-4"  src="./assets/imgs/Guestbook/input.css.png" alt="" />
+            <span class="text-xs">771 reviews</span>
+          </div>
         </div>
       </div>
     </div>
@@ -460,7 +464,7 @@ Guestbook
 Cuisine Blog
 ============ -->
     <div class="cuisineBlog bg-gray-100 mt-10 pb-10">
-      <div class="cuisineBlog__container pt-10">
+      <div class="cuisineBlog__container container pt-10">
         <div class="text-center flex flex-col gap-9">
           <div class="flex flex-col gap-3">
             <h3 class="text-3xl md:text-5xl">Cuisine Blog</h3>
@@ -530,81 +534,83 @@ Cuisine Blog
     <!-- ============
 date and map
 ============ -->
-<div class="md:grid md:grid-cols-2">
-  <div class="flex justify-around">
-    <iframe
-      class="text-center w-[600px] h-[650px] md:w-[100%]"
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3571.674268895356!2d12.587123067977535!3d55.671362379632725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4652533a2a051133%3A0x4cf4f0f00aab24de!2sChristianshavn%2C%20Copenhagen%2C%20Denmark!5e0!3m2!1sen!2sse!4v1726476692000!5m2!1sen!2sse"
-     
-      style="border: 0"
-      allowfullscreen=""
-      loading="lazy"
-      referrerpolicy="no-referrer-when-downgrade"
-    ></iframe>
-  </div>
-      <div class="date">
-        <div class="date__container pt-10 pb-16 w-11/12 mx-auto">
-          <div class="flex flex-col gap-10">
-            <div class="flex flex-col gap-3">
-              <h3 class="text-3xl">Reservé</h3>
-              <p class="dateClr">Easy access and don’t loose time waiting.</p>
+<div >
+  <div class="container md:grid md:grid-cols-2">
+    <div class="flex justify-around">
+      <iframe
+        class="text-center w-[600px] h-[650px] md:w-[100%]"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3571.674268895356!2d12.587123067977535!3d55.671362379632725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4652533a2a051133%3A0x4cf4f0f00aab24de!2sChristianshavn%2C%20Copenhagen%2C%20Denmark!5e0!3m2!1sen!2sse!4v1726476692000!5m2!1sen!2sse"
+       
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+        <div class="date">
+          <div class="date__container pt-10 pb-16 w-11/12 mx-auto">
+            <div class="flex flex-col gap-10">
+              <div class="flex flex-col gap-3">
+                <h3 class="text-3xl">Reservé</h3>
+                <p class="dateClr">Easy access and don’t loose time waiting.</p>
+              </div>
+              <div>
+                <img class="w-20" src="./assets/imgs/date/divider.png" alt="" />
+              </div>
             </div>
-            <div>
-              <img class="w-20" src="./assets/imgs/date/divider.png" alt="" />
-            </div>
-          </div>
-          <div class="flex flex-col gap-4 mt-5">
-            <div class="flex flex-col">
-              <span>Date</span>
-              <input class="w-full border py-2 pl-3" type="date" />
-            </div>
-  
-            <div class="flex flex-col gap-2">
-              <label for="Time">Time</label>
-  
-              <select class="w-full border py-2 pl-3" id="Time">
-                <option value="volvo">08:00 am</option>
-                <option value="saab">08:30 am</option>
-                <option value="opel">09:00 am</option>
-                <option value="audi">09:30 am</option>
-                <option value="audi">10:00 am</option>
-                <option value="audi">10:30 am</option>
-                <option value="audi">11:00 am</option>
-                <option value="audi">11:30 am</option>
-              </select>
-            </div>
-            <div class="flex flex-col gap-2">
-              <label for="cars">We are: </label>
-  
-              <select class="w-full border py-2 pl-3" id="cars">
-                <option value="volvo">1 person</option>
-                <option value="saab">2 people</option>
-                <option value="opel">3 people</option>
-                <option value="audi">4 people</option>
-                <option value="audi">5 people</option>
-                <option value="audi">6 people</option>
-                <option value="audi">7 people</option>
-                <option value="audi">8 people</option>
-                <option value="audi">9 people</option>
-                <option value="audi">10 people</option>
-              </select>
-            </div>
-            <div>
-              <a
-                class="find-a-table mt-5 text-white px-5 py-3 inline-block"
-                href=""
-                >Find a Table</a
-              >
+            <div class="flex flex-col gap-4 mt-5">
+              <div class="flex flex-col">
+                <span>Date</span>
+                <input class="w-full border py-2 pl-3" type="date" />
+              </div>
+    
+              <div class="flex flex-col gap-2">
+                <label for="Time">Time</label>
+    
+                <select class="w-full border py-2 pl-3" id="Time">
+                  <option value="volvo">08:00 am</option>
+                  <option value="saab">08:30 am</option>
+                  <option value="opel">09:00 am</option>
+                  <option value="audi">09:30 am</option>
+                  <option value="audi">10:00 am</option>
+                  <option value="audi">10:30 am</option>
+                  <option value="audi">11:00 am</option>
+                  <option value="audi">11:30 am</option>
+                </select>
+              </div>
+              <div class="flex flex-col gap-2">
+                <label for="cars">We are: </label>
+    
+                <select class="w-full border py-2 pl-3" id="cars">
+                  <option value="volvo">1 person</option>
+                  <option value="saab">2 people</option>
+                  <option value="opel">3 people</option>
+                  <option value="audi">4 people</option>
+                  <option value="audi">5 people</option>
+                  <option value="audi">6 people</option>
+                  <option value="audi">7 people</option>
+                  <option value="audi">8 people</option>
+                  <option value="audi">9 people</option>
+                  <option value="audi">10 people</option>
+                </select>
+              </div>
+              <div>
+                <a
+                  class="find-a-table mt-5 text-white px-5 py-3 inline-block"
+                  href=""
+                  >Find a Table</a
+                >
+              </div>
             </div>
           </div>
         </div>
-      </div>
+  </div>
 </div>
     <!-- ============
 footer
 ============ -->
     <div class="footer bg-zinc-800 text-white">
-      <div class="footer__container w-11/12 mx-auto pt-6 pb-16">
+      <div class="footer__container container w-11/12 mx-auto pt-6 pb-16">
         <div class="flex flex-col gap-4">
           <h3 class="text-2xl">Location</h3>
           <p class="footclr">

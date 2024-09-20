@@ -554,6 +554,40 @@ video {
   --tw-contain-style:  ;
 }
 
+.container {
+  width: 100%;
+}
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -603,10 +637,6 @@ video {
   margin-top: 2.25rem;
 }
 
-.mt-0 {
-  margin-top: 0px;
-}
-
 .inline-block {
   display: inline-block;
 }
@@ -621,14 +651,6 @@ video {
 
 .h-4 {
   height: 1rem;
-}
-
-.h-\[\] {
-  height: ;
-}
-
-.h-\[650\] {
-  height: 650;
 }
 
 .h-\[650px\] {
@@ -675,6 +697,10 @@ video {
   width: 24rem;
 }
 
+.w-\[600px\] {
+  width: 600px;
+}
+
 .w-\[95\%\] {
   width: 95%;
 }
@@ -686,26 +712,6 @@ video {
 .w-max {
   width: -moz-max-content;
   width: max-content;
-}
-
-.w-3\/12 {
-  width: 25%;
-}
-
-.w-3\/5 {
-  width: 60%;
-}
-
-.w-\[\] {
-  width: ;
-}
-
-.w-\[600\] {
-  width: 600;
-}
-
-.w-\[600px\] {
-  width: 600px;
 }
 
 .grid-cols-2 {
@@ -914,10 +920,6 @@ video {
   padding-top: 2rem;
 }
 
-.pt-0 {
-  padding-top: 0px;
-}
-
 .text-center {
   text-align: center;
 }
@@ -1052,26 +1054,6 @@ video {
     width: 50%;
   }
 
-  .md\:w-11\/12 {
-    width: 91.666667%;
-  }
-
-  .md\:w-3\/5 {
-    width: 60%;
-  }
-
-  .md\:w-\[\] {
-    width: ;
-  }
-
-  .md\:w-\[50\] {
-    width: 50;
-  }
-
-  .md\:w-\[50\%\] {
-    width: 50%;
-  }
-
   .md\:w-\[100\%\] {
     width: 100%;
   }
@@ -1105,19 +1087,14 @@ video {
        object-fit: contain;
   }
 
-  .md\:px-14 {
-    padding-left: 3.5rem;
-    padding-right: 3.5rem;
+  .md\:px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
   }
 
   .md\:px-24 {
     padding-left: 6rem;
     padding-right: 6rem;
-  }
-
-  .md\:px-10 {
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
   }
 
   .md\:pl-10 {
