@@ -5,7 +5,9 @@
 }
 
 .header {
-  height: 100vh;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
 }
 
 .footclr {
