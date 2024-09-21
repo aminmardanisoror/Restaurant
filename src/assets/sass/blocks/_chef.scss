@@ -1,7 +1,13 @@
 .chef {
   background: url(../imgs/chef/chef-2.jpg);
-  height: 100vh;
+  
   background-size: cover;
   background-position: center;
  
+}
+@media screen and (min-width: 1280px) {
+  .chef {
+    background-position: top;
+    
+  }
 }
