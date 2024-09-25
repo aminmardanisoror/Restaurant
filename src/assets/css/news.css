@@ -4,6 +4,20 @@
   margin-right: auto;
 }
 
+@media screen and (min-width: 768px) {
+  .mediumWidth {
+    max-width: 768px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .NewsContainer {
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 .dateClr {
   color: #6d6d6d;
 }

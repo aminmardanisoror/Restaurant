@@ -16,9 +16,9 @@
 header
 ============ -->
     <div class="header">
-      <div class="flex flex-col container gap-16">
+      <div class="mediumWidth flex flex-col NewsContainer gap-16 w-11/12 mx-auto ">
         <div
-          class="header__navbar flex justify-between px-3 pt-6 md:pt-12 md:px-10"
+          class="header__navbar flex justify-between  pt-6 md:pt-12 "
         >
           <img
             class="w-24"
@@ -38,7 +38,7 @@ header
           </div>
           <i class="bi bi-list text-3xl md:hidden"></i>
         </div>
-        <div class="header__explain px-3 flex flex-col gap-4">
+        <div class="header__explain  flex flex-col gap-4">
           <h1 class="text-3xl">News</h1>
           <p>
             Everything about our food and our events, featuring quick, tasty,
@@ -52,9 +52,9 @@ header
     <!-- ============
 Cards
 ============ -->
-    <div class="Cards mt-16 flex flex-col gap-10">
-      <div class="container flex flex-col gap-10">
-        <div class="w-11/12 mx-auto border flex flex-col gap-4 pb-5">
+    <div class=" Cards mt-16 ">
+      <div class="NewsContainer w-11/12 mx-auto flex flex-col gap-10 mediumWidth lg:grid lg:grid-cols-2 xl:grid-cols-3">
+        <div class="w-full  mx-auto border flex flex-col gap-4 pb-5">
           <img
             src="./assets/imgs/news/mini-creamy-chicken-noodle-bread-bowls-5-600x480.jpg"
             alt=""
@@ -82,7 +82,7 @@ Cards
             </div>
           </div>
         </div>
-        <div class="w-11/12 mx-auto border flex flex-col gap-4 pb-5">
+        <div class="w-full  mx-auto border flex flex-col gap-4 pb-5">
           <img src="./assets/imgs/news/IAM_0041w-600x480.jpg" alt="" />
           <div class="flex flex-col gap-4 w-10/12 mx-auto">
             <a class="font-semibold text-2xl" href=""
@@ -106,7 +106,7 @@ Cards
             </div>
           </div>
         </div>
-        <div class="w-11/12 mx-auto border flex flex-col gap-4 pb-5">
+        <div class="w-full  mx-auto border flex flex-col gap-4 pb-5">
           <img
             src="./assets/imgs/news/raspberry-blueberry-pavlovas-8w-600x480.jpg"
             alt=""
@@ -134,7 +134,7 @@ Cards
             </div>
           </div>
         </div>
-        <div class="w-11/12 mx-auto border flex flex-col gap-4 pb-5">
+        <div class="w-full  mx-auto border flex flex-col gap-4 pb-5">
           <img src="./assets/imgs/news/Chef-Cooking.jpg" alt="" />
           <div class="flex flex-col gap-4 w-10/12 mx-auto">
             <a class="font-semibold text-2xl" href=""
@@ -159,7 +159,7 @@ Cards
             </div>
           </div>
         </div>
-        <div class="w-11/12 mx-auto border flex flex-col gap-4 pb-5">
+        <div class="w-full  mx-auto border flex flex-col gap-4 pb-5">
           <img src="./assets/imgs/news/IAM_5986ww.jpg" alt="" />
           <div class="flex flex-col gap-4 w-10/12 mx-auto">
             <a class="font-semibold text-2xl" href=""
@@ -183,7 +183,7 @@ Cards
             </div>
           </div>
         </div>
-        <div class="w-11/12 mx-auto border flex flex-col gap-4 pb-5">
+        <div class="w-full  mx-auto border flex flex-col gap-4 pb-5">
           <div class="w-full bg-gray-200">
             <div class="flex flex-col gap-6 w-10/12 mx-auto py-4">
               <span
@@ -217,7 +217,7 @@ Cards
             </div>
           </div>
         </div>
-        <div class="w-11/12 mx-auto border flex flex-col gap-4 pb-5">
+        <div class="w-full  mx-auto border flex flex-col gap-4 pb-5">
           <img src="./assets/imgs/news/IAM_5986ww.jpg" alt="" />
           <div class="flex flex-col gap-4 w-10/12 mx-auto">
             <a class="font-semibold text-2xl" href=""
@@ -249,17 +249,19 @@ Search
 ============ -->
     <div class="search mt-12">
       <div
-        class="container border font-bold flex justify-between mx-auto w-11/12 px-3 py-2"
+        class="NewsContainer border font-bold flex justify-between mx-auto w-11/12 px-3 py-2 mediumWidth"
       >
         <input class="w-3/4" type="text" placeholder="Search site..." />
-        <span  class="w-1/4">GO</span>
+        <span  class="w-1/4 text-right">GO</span>
+      
       </div>
+
     </div>
     <!-- ============
 Reservé
 ============ -->
     <div class="date">
-      <div class="date__container container pt-10  w-11/12 mx-auto">
+      <div class="date__container NewsContainer pt-10  w-11/12 mx-auto mediumWidth">
         <div class="flex flex-col gap-10">
           <div class="flex flex-col gap-3">
             <h3 class="text-3xl">Reservé</h3>
@@ -315,7 +317,7 @@ Reservé
 Recent Posts
 ============ -->
 <div class="RecentPosts mt-14">
-  <div class="container pt-8 pb-6 w-11/12 mx-auto border">
+  <div class="NewsContainer pt-8 pb-6 w-11/12 mx-auto border mediumWidth">
     <div class="w-9/12 mx-auto flex flex-col gap-5">
 <div>
   <h2 class="text-2xl font-semibold">Recent Posts</h2>
@@ -338,7 +340,7 @@ Recent Posts
 Categories
 ============ -->
 <div class="Categories mt-14">
-  <div class="container pt-8 pb-6 w-11/12 mx-auto border">
+  <div class="NewsContainer pt-8 pb-6 w-11/12 mx-auto border mediumWidth">
     <div class="w-9/12 mx-auto flex flex-col gap-5">
 <div>
   <h2 class="text-2xl font-semibold">Categories</h2>
@@ -361,7 +363,7 @@ Categories
 footer
 ============ -->
 <div class="footer bg-zinc-800 text-white mt-10">
-  <div class="footer__container container w-11/12 mx-auto pt-6 pb-16">
+  <div class="footer__container mediumWidth NewsContainer w-11/12 mx-auto pt-6 pb-16">
     <div class="flex flex-col gap-4">
       <h3 class="text-2xl">Location</h3>
       <p class="footclr">
