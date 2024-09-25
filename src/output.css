@@ -722,6 +722,14 @@ video {
   width: max-content;
 }
 
+.w-11 {
+  width: 2.75rem;
+}
+
+.scroll-mt-14 {
+  scroll-margin-top: 3.5rem;
+}
+
 .grid-cols-2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
@@ -732,6 +740,10 @@ video {
 
 .items-center {
   align-items: center;
+}
+
+.justify-end {
+  justify-content: flex-end;
 }
 
 .justify-center {
@@ -792,18 +804,6 @@ video {
 
 .gap-9 {
   gap: 2.25rem;
-}
-
-.self-start {
-  align-self: flex-start;
-}
-
-.self-end {
-  align-self: flex-end;
-}
-
-.justify-self-start {
-  justify-self: start;
 }
 
 .justify-self-end {
@@ -979,6 +979,10 @@ video {
   padding-top: 2rem;
 }
 
+.text-left {
+  text-align: left;
+}
+
 .text-center {
   text-align: center;
 }
@@ -1084,10 +1088,6 @@ video {
     margin-top: 2rem;
   }
 
-  .md\:block {
-    display: block;
-  }
-
   .md\:flex {
     display: flex;
   }
@@ -1130,34 +1130,6 @@ video {
     width: 100%;
   }
 
-  .md\:w-\[\] {
-    width: ;
-  }
-
-  .md\:w-\[776\] {
-    width: 776;
-  }
-
-  .md\:w-\[768\] {
-    width: 768;
-  }
-
-  .md\:w-\[768pc\] {
-    width: 768pc;
-  }
-
-  .md\:w-\[768px\] {
-    width: 768px;
-  }
-
-  .md\:w-full {
-    width: 100%;
-  }
-
-  .md\:w-11\/12 {
-    width: 91.666667%;
-  }
-
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -1168,10 +1140,6 @@ video {
 
   .md\:flex-row {
     flex-direction: row;
-  }
-
-  .md\:flex-col {
-    flex-direction: column;
   }
 
   .md\:items-center {
@@ -1188,6 +1156,10 @@ video {
 
   .md\:gap-9 {
     gap: 2.25rem;
+  }
+
+  .md\:justify-self-end {
+    justify-self: end;
   }
 
   .md\:object-contain {
@@ -1255,12 +1227,12 @@ video {
     width: 50%;
   }
 
-  .lg\:grid-cols-3 {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-
   .lg\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .lg\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .lg\:py-40 {
@@ -1278,8 +1250,12 @@ video {
 }
 
 @media (min-width: 1280px) {
-  .xl\:w-11\/12 {
-    width: 91.666667%;
+  .xl\:w-1\/2 {
+    width: 50%;
+  }
+
+  .xl\:max-w-screen-md {
+    max-width: 768px;
   }
 
   .xl\:grid-cols-3 {
